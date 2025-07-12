@@ -20,7 +20,7 @@ resource "aws_dynamodb_table" "basic-dynamodb-table" {
 
 
   attribute {
-    name = "lock"
+    name = "lockid"
     type = "S"
   }
 
