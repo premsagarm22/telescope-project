@@ -5,7 +5,7 @@ provider "aws" {
 
 
 resource "aws_s3_bucket" "example" {
-  bucket = "prem"
+  bucket = "pasew"
 
  lifecycle {
    prevent_destroy = false
